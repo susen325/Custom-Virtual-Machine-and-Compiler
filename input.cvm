@@ -1,0 +1,3 @@
+print 1111;
+let x = input;
+print x * 2;

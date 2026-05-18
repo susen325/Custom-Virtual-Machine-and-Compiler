@@ -1,0 +1,15 @@
+// This is a comment
+let x = 10;
+let y = 20;
+
+// Test logical AND
+if (x < 15 && y == 20) {
+    print true;
+} else {
+    print false;
+}
+
+// Test logical OR
+if (x > 15 || y == 20) {
+    print 123;
+}

@@ -1,0 +1,43 @@
+// --- CVM++ Comprehensive Check ---
+
+// 1. Arithmetic & Precedence
+print 10 + 5 * 2; // Expected: 20
+print (10 + 5) * 2; // Expected: 30
+print 20 / 4 - 2; // Expected: 3
+
+// 2. Variables & Assignment
+let a = 100;
+let b = 50;
+a = a + b;
+print a; // Expected: 150
+
+// 3. Comparisons
+print a > b; // Expected: true
+print b < 10; // Expected: false
+print a == 150; // Expected: true
+
+// 4. Logical Operators
+print true && false; // Expected: false
+print true || false; // Expected: true
+print (a > 100) && (b == 50); // Expected: true
+
+// 5. Control Flow: If-Else
+if (a > 200) {
+    print 999;
+} else {
+    print 888; // Expected: 888
+}
+
+// 6. Control Flow: While Loop
+let counter = 3;
+while (counter > 0) {
+    print counter;
+    counter = counter - 1;
+}
+// Expected sequence: 3, 2, 1
+
+// 7. Boolean Literals
+print true; // Expected: true
+print false; // Expected: false
+
+// --- End of Check ---
